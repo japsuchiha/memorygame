@@ -1,6 +1,44 @@
 $m-size: 1.2rem;
 
+html{
+    height: 100%;
+}
 body{
     height: 100%;
     margin: 0;
 }
+.container{
+    height: 100%;
+}
+.inside-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-card{
+    width: 200px;
+    margin: 0;
+}
+
+.grid{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-grids{
+    width:150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+.cards{
+   height: 150px;
+   margin-top: 6%;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
