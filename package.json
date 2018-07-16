@@ -1,0 +1,26 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "description": "memory game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "sass": "node-sass --watch main.scss -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japsuchiha/memorygame.git"
+  },
+  "author": "japneet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/japsuchiha/memorygame/issues"
+  },
+  "homepage": "https://github.com/japsuchiha/memorygame#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "sass": "^1.9.2"
+  }
+}
