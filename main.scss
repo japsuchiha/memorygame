@@ -22,7 +22,7 @@ body{
 }
 
 .grid{
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,3 +42,16 @@ body{
     align-items: center;
 }
 
+.back{
+    position: absolute;
+    visibility: hidden;
+}
+
+.find{
+    pointer-events: none;
+    visibility: visible;
+}
+
+.no-find{
+    visibility: hidden;
+}
